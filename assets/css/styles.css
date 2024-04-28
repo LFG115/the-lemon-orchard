@@ -1,2 +1,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background:url(../images/fresh-lemon-orchard-seamless-pattern-dark-photography.jpg);
+    font-family: "Lato", sans-serif;
+    transition: all .5s ease-in-out;
+}
+
+header {
+    margin: 0;
+}
+/*---------------------------------------------------------- Colours */
+
+.bg-name-color-title {
+    background-color: #efecec;
+}
+
+
+
+
+/*---------------------------------------------- Special Paddings / Margins / Text */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+/*---------------------------------------------------------- header */
+header .col-6, h1, h2, h3 {
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+/*---------------------------------------------------------- full body stuff */
+
+
