@@ -13,7 +13,7 @@ header {
 /*---------------------------------------------------------- Colours */
 
 .bg-name-color-title {
-    background-color: #efecec;
+    background-color: rgba(255, 255, 255, 0.784)
 }
 
 
@@ -28,12 +28,14 @@ header {
 
 
 /*---------------------------------------------------------- header */
-header .col-6, h1, h2, h3 {
+header .col-12, h1, h2, h3 {
     color: #000000;
     text-align: center;
     display: flex;
     justify-content: center;
     position: relative;
+    margin: 6px;
+    padding: 3px;
 }
 
 h1 {
