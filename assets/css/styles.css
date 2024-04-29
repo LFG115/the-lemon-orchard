@@ -5,15 +5,26 @@ body {
     background:url(../images/fresh-lemon-orchard-seamless-pattern-dark-photography.jpg);
     font-family: "Lato", sans-serif;
     transition: all .5s ease-in-out;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    margin: 0;
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
 }
+
+
 /*---------------------------------------------------------- Colours */
 
 .bg-name-color-title {
-    background-color: rgba(255, 255, 255, 0.784)
+    background-color: rgba(255, 255, 255, 0.926)
+}
+
+.navbar {
+    background-color: #d0d0d0;
 }
 
 
@@ -27,15 +38,19 @@ header {
 
 
 
-/*---------------------------------------------------------- header */
-header .col-12, h1, h2, h3 {
-    color: #000000;
+/*---------------------------------------------------------- main */
+
+.hero-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    z-index: 1;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 6px;
-    padding: 3px;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.926)
 }
 
 h1 {
