@@ -9,24 +9,26 @@ body {
     padding: 0;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
-    display: block;
-}
-
 
 /*---------------------------------------------------------- Colours */
 
-.bg-name-color-title {
-    background-color: rgba(255, 255, 255, 0.926)
-}
+
+
+
+/*---------------------------------------------------------- Nav */
 
 .navbar {
-    background-color: #d0d0d0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #fcfcfcf3;
+    height: 65px;
+    border: 0;
 }
 
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 400;
+}
 
 
 
@@ -41,6 +43,23 @@ body {
 /*---------------------------------------------------------- main */
 
 .hero-section {
+    height: 50vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.res-btn {
+    background-color: rgba(12, 72, 35, 0.711);
+}
+
+.res-btn:hover,
+.res-btn:active,
+.res-btn:focus,
+.btn:active:focus {
+    color: white;
+}
+
+.col-header {
     position: absolute;
     top: 50%;
     left: 50%;
