@@ -21,12 +21,6 @@ body {
     transition: all .5s ease-in-out;
 }
 
-
-/*---------------------------------------------------------- Colours */
-
-
-
-
 /*---------------------------------------------------------- Nav */
 
 .navbar {
@@ -76,6 +70,7 @@ body {
 
 .res-btn {
     background-color: rgba(12, 72, 35, 0.711);
+    padding: 3px;
 }
 
 .res-btn:hover,
@@ -110,7 +105,21 @@ h1 {
 
 footer {
     width: 100%;
+    height: 90%;
     background-color: #fcfcfcf3;
+}
+
+.footer-h2 {
+    font-size: 22px;
+}
+
+.col-md p {
+    font-size: 15px;
+}
+
+.col-md i {
+    font-size: 18px;
+    color: #080808;
 }
 
 
