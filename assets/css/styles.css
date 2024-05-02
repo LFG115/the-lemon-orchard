@@ -30,15 +30,10 @@ body {
 /*---------------------------------------------------------- Nav */
 
 .navbar {
-    margin-bottom: 0;
     width: 100%;
     background-color: #fcfcfcf3;
-    height: 70px;
-    border: 0;
+    height: 100px;
     justify-content: space-between;
-    margin-right: 10px;
-    padding-right: 10px;
-
 }
 
 .navbar-brand {
@@ -47,10 +42,19 @@ body {
     letter-spacing: 2px;
 }
 
-#nav-items {
+.nav-items {
+    width: fit-content;
+}
+
+#menu {
     font-size: 21px;
     letter-spacing: 2px;
 }
+
+#menu li a {
+    margin: 5px;
+}
+
 
 
 
@@ -105,7 +109,6 @@ h1 {
 /*---------------------------------------------------------- Footer */
 
 footer {
-    margin-bottom: 0;
     width: 100%;
     background-color: #fcfcfcf3;
 }
