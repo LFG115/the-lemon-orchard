@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     transition: all .5s ease-in-out;
+    overflow-x: hidden;
 }
 
 /*---------------------------------------------------------- Nav */
@@ -28,6 +29,7 @@ body {
     background-color: #fcfcfcf3;
     height: 100px;
     justify-content: space-between;
+    bottom: 10px;
 }
 
 .navbar-brand {
@@ -57,8 +59,6 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
-
-
 
 /*---------------------------------------------------------- main */
 
@@ -101,12 +101,12 @@ h1 {
 
 /*---------------------------------------------------------- Footer */
 
-footer {
+.footer {
     width: 100%;
     height: 100%;
     background-color: #fcfcfcf3;
-    margin-bottom: 0;
-    bottom: 0;
+    position: relative;
+    bottom: auto 0;
 }
 
 .footer-h2 {
@@ -122,14 +122,22 @@ footer {
     color: #080808;
 }
 
-/*---------------------------------------------------------- MENU - HTML */
+.container-fluid {
+    bottom: 0;
+}
 
+/*---------------------------------------------------------- MENU */
+
+#menu1 {
+    font-size: 15px; ;
+}
 
 .col-menu {
     text-align: center;
     padding: 1rem 5rem;
     border-radius: 10px;
     margin-top: 200px;
+    max-height: 100%;
     background-color: rgba(255, 255, 255, 0.926);
     position: absolute;
     left: 50%;
