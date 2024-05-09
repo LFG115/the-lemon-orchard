@@ -152,7 +152,28 @@ footer p {
 
 /*---------------------------------------------------------- MENU */
 
-#menu1 .row .col-12 {
+.menu-div {
+    background-color: rgba(245, 245, 235, 0.925);
+    padding: 0 3em;
+}
+
+.menu-div h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.menu-details-left,
+.menu-details-right {
+    margin-bottom: 10em;
+}
+
+
+
+
+
+
+
+/* #menu1 .row .col-12 {
     font-size: 14px; 
     bottom: 0;
 }
@@ -182,4 +203,4 @@ footer p {
 
 .starters {
     padding-top: 40px;
-}
+} */
