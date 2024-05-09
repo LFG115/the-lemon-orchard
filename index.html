@@ -21,7 +21,32 @@
 
 <body>
     <!-- Navagation -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar border-bottom sticky-top navbar-expand-md" data-bs-theme="dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <h1>Lemon Orchard</h1>
+          </a>
+          <button class="navbar-toggler p-1 p-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="active nav-item mr-2"><a class="nav-link" href="/index.html">Home</a></li>
+                  <li class="nav-item mr-2"><a class="nav-link" href="/menu.html">Menu</a></li>
+                  <li class="nav-item mr-2"><a class="nav-link" href="/about.html">About</a></li>
+
+                  <!-- Different 'Bookings' links for toggled/untoggled menu -->
+                  <li class="nav-item d-md-none bg-light-subtle rounded"><a class="nav-link" href="/reservation.html">Reservations</a></li>
+                  <li class="nav-item d-none d-md-inline"><a class="btn btn-light" href="/reservation.html">Reservations</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
         <div class=" row container-fluid">
             <div class="col-4">
                 <a href="/index.html" class="navbar-brand">Lemon Orchard</a>
@@ -37,7 +62,7 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Main section -->
     <main>
@@ -67,17 +92,14 @@
       <div class="container-fluid">
           <div class="row fixed-bottom">
               <!-- Address and Opening Hours -->
-              <div class="col-4 col-md-4 col-lg-4">
-                  <h3>Find Us :</h3>
-                  <p>Corso Italia, Sorrento<br>
-                    Naples, Italy<span class="d-none d-sm-inline"></span></p>
-              </div>
-              <div class="col-2 col-md-4 col-lg-4">
-                    <h3 class="footer-hours"><b>Opening</b><span class="d-none d-sm-inline"> Hours:</span></h3>
-                    <p class="footer-hours d-none d-sm-inline">Mon - Fri: 12:00 - 22:00</p> <p>Sat - Sun: 12:00 - 22:00</p>
+              <div class="col-5 col-md-4 col-lg-4">
+                <h3>Find Us:</h3>
+                <p>Corso Italia, Sorrento, Italy</p>
+                <h3 class="footer-hours">Opening Hours:</h3>
+                <p class="footer-hours">12:00 - 22:00</p>
               </div>
               <!-- Icons -->
-              <div class="col-4 col-md-4 col-lg-4 d-flex justify-content-end justify-content-md-center align-items-center">
+              <div class="col-7 col-md-4 col-lg-4 d-flex justify-content-end justify-content-md-center align-items-center">
                   <div class="footer-icon d-flex justify-content-center align-items-center rounded-circle mx-1">
                       <a href="bookings@thelemonOrchard.co.uk" target="_blank" aria-label="Contact us via email"><i
                               class="fa-solid fa-envelope"></i></a>
@@ -93,8 +115,7 @@
               </div>
               <!-- Est. Date and creator -->
               <div class="d-none d-md-flex col-md-4 col-lg-4 d-flex justify-content-end align-items-end">
-                  <h2>Est.  2024</h2>
-                  <h2>Creator: Luciano Gomes</h2>
+                  <h2>Creator: Luciano Gomes - Est.2024</h2>
               </div>
           </div>
       </div>

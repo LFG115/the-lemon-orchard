@@ -36,26 +36,40 @@ body {
     bottom: 10px;
 }
 
-.navbar-brand {
-    font-size: 30px;
-    font-weight: 400;
+.navbar-brand h1 {
+    font-size: 35px;
+    font-weight: 300;
     letter-spacing: 2px;
     background-color: rgba(12, 72, 35, 0.711);
     padding: 10px;
     border-radius: 5px;
+    color: black;
 }
 
 .nav-items {
     width: fit-content;
 }
 
-#menu {
-    font-size: 21px;
-    letter-spacing: 2px;
+.navbar-nav .btn {
+    background-color: rgba(12, 72, 35, 0.711);
+    
 }
 
-#menu li a {
+#navbarNav {
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+#navbarNav li a {
     margin: 5px;
+    color: black;
+}
+
+.navbar-toggler {
+    margin-top: -0.5em;
+    margin-right: 0.5em;
+    border: 2px solid;
 }
 
 
