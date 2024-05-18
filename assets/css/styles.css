@@ -72,14 +72,9 @@ body {
     border: 2px solid;
 }
 
-.phone-num {
-    
-}
 
 
-
-
-/*---------------------------------------------- Special Paddings / Margins / Text */
+/*---------------------------------------------- Special Paddings */
 
 .uppercase {
     text-transform: uppercase;
@@ -191,4 +186,20 @@ footer p {
 .menu-details-left,
 .menu-details-right {
     margin-bottom: 10em;
+}
+
+/*---------------------------------------------------------- about section */
+
+#our-story {
+    
+}
+
+#writing {
+    background-color: rgba(255, 255, 255, 0.926);
+    padding: 10px;
+}
+
+#rest-img {
+    background-color: rgba(255, 255, 255, 0.926);
+    padding: 30px;
 }
