@@ -123,7 +123,7 @@ h1 {
 /*---------------------------------------------------------- main img */
 
 .img-section {
-padding-top: 55px;
+    padding: 90px;
 }
 
 .front img {
@@ -131,23 +131,18 @@ padding-top: 55px;
     width: auto;
 }
 
-/* .breakfast-pic {
-    background-color: rgb(12, 72, 35);
-    padding: 3px;
-    margin-left: 50px;
+.breakfast-pic img {
+
 }
 
-.fish-pic {
-    background-color: rgb(12, 72, 35);
-    padding: 3px;
-    margin-left: 50px;
+.quote-1 {
+    background-color: rgba(255, 255, 255, 0.903);
+    padding-top: 10px;
+    font-size: 15px;
 }
 
 .dessert-pic {
-    background-color: rgb(12, 72, 35);
-    padding: 3px;
-    margin-left: 50px;
-} */
+}
 
 /*---------------------------------------------------------- Footer */
 
