@@ -5,11 +5,11 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    border: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -113,29 +113,51 @@ body {
     padding: 1rem 5rem;
     border-radius: 10px;
     margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.926);
+    background-color: rgb(255, 255, 255);
 }
 
-h1 {
+.col-header h1 {
+    font-size: 50px;
+}
+
+.col-header h3 {
     font-size: 45px;
 }
 
 /*---------------------------------------------------------- main img */
 
-.img-section {
-    padding: 90px;
+
+.food-container {
+    margin: 10vh 20vw;
+  }
+  
+.food-image-1 {
+    width: 100%;
+    margin-top: 25px;
+    object-fit: contain;
 }
 
-.front img {
-    height: 100%;
-    width: auto;
+.food-image-2 {
+    width: 100%;
+    height: 50%;
+    max-height: 700px;
+    object-fit: contain;
 }
-
-.quote-1 {
-    background-color: rgba(255, 255, 255, 0.903);
-    padding-top: 10px;
-    font-size: 15px;
+  
+.food-image-3 {
+    width: 100%;
+    max-height: 700px;
+    padding: 0;
+    object-fit: contain;
 }
+ 
+.white {
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+  
 
 /*---------------------------------------------------------- Footer */
 
