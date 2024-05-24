@@ -29,20 +29,30 @@ body {
 /*---------------------------------------------------------- Nav */
 
 .navbar {
-    width: 100%;
-    background-color: #fcfcfcf3;
+    min-width: 100%;
+    background-color: #ffffff;
     height: 100px;
     justify-content: space-between;
     bottom: 10px;
 }
 
 .navbar-brand h1 {
-    font-size: 35px;
+    font-size: 26px;
     font-weight: 300;
     letter-spacing: 2px;
     background-color: rgba(12, 72, 35, 0.711);
     padding: 10px;
     border-radius: 5px;
+    color: black;
+}
+
+.navbar-toggler {
+    margin-top: -0.5em;
+    margin-right: 0.5em;
+    border: 2px solid;
+}
+
+.navbar-toggler  {
     color: black;
 }
 
@@ -62,7 +72,7 @@ body {
 }
 
 #navbarNav li a {
-    margin: 5px;
+    margin: 8px;
     color: black;
 }
 
@@ -71,7 +81,6 @@ body {
     margin-right: 0.5em;
     border: 2px solid;
 }
-
 
 
 /*---------------------------------------------- Special Paddings */
@@ -117,11 +126,11 @@ body {
 }
 
 .col-header h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .col-header h3 {
-    font-size: 45px;
+    font-size: 32px;
 }
 
 /*---------------------------------------------------------- main img */
