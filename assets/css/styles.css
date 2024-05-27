@@ -247,14 +247,51 @@ footer p {
 }
 
 #writing {
-    background-color: rgba(255, 255, 255, 0.926);
+    background-color: rgb(255, 255, 255);
     padding: 13px;
 }
 
 #rest-img {
-    background-color: rgba(255, 255, 255, 0.926);
+    background-color: rgb(255, 255, 255);
     padding: 30px;
 }
 
 /*----------------------------------------------------------Access & Authorisation Forms */
+
+.access-form{
+    background-color: rgb(255, 255, 255);
+    border: 0.5em solid rgba(12, 72, 35, 0.759);
+    margin-top: 2.5em;
+}
+
+.access-form a {
+    color: black;
+    font-weight: bold;
+}
+
+.access-form a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 72, 35, 0.759);
+    text-decoration: none;
+    padding: 3px;
+}
+
+.access-form button,
+.access-form-input {
+    color: ghostwhite;
+    background-color: rgba(12, 72, 35, 0.759);
+}
+
+.access-form-smalltxt {
+    font-size: 0.9em;
+}
+
+#id_login,
+#id_password,
+#id_username {
+    width: 50%;
+    border: solid rgba(12, 72, 35, 0.759);
+    border-radius: 3px;
+    padding: 2px;
+}
 
