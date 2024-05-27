@@ -215,10 +215,10 @@ footer p {
 
 
 /*---------------------------------------------------------- MENU */
-#menu {
-    padding-top: 25px;
-}
 
+#menu {
+    padding-top: 70px;
+}
 
 .menu-div {
     background-color: rgba(245, 245, 235, 0.914);
@@ -230,9 +230,13 @@ footer p {
     font-weight: bold;
 }
 
+.menu-div p {
+    font-size: 15px;
+}
+
 .menu-details-left,
 .menu-details-right {
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 
 /*---------------------------------------------------------- about section */
