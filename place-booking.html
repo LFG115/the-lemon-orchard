@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="restaurant, orchard, food, italian, italy, naples, sorrento ">
+    <meta name="description" content="Restaurant quality food and drink with an italian lemon orcahrd twist">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/favicon_io (6)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon_io (6)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon_io (6)/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/favicon_io (6)/favicon.ico">
+
+    <!--links to other pages-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>The Lemon Orchard Restaurant</title>
+</head>
+
+<body>
+
+     <!-- Navagation -->
+     <nav class="navbar border-bottom sticky-top navbar-expand-sm" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h1>Lemon Orchard</h1>
+            </a>
+  
+            <button class="navbar-toggler p-1 p-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                      
+  
+            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/menu.html">Menu</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about.html">About</a></li>
+  
+                    <!-- Different 'Bookings' links for toggled/untoggled menu -->
+                    <li class="nav-item d-md-none bg-light-subtle rounded"><a class="nav-link" href="/booking.html">Reservations</a></li>
+                    <li class="nav-item d-none d-md-inline"><a class="btn btn-light" href="/booking.html">Reservations</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid text-light text-end">
+        <p><span class="bg-dark px-2 px-md-3 pb-1"> Logged in as <em></em></span> </p>
+    </div>
+
+    <!-- New Booking -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-7 col-md-6 col-lg-4 col-xxl-3 booking-form text-center shadow">
+                <h2 class="pt-2">Make a Booking</h2>
+                <p class="pb-2">Booking as <em></em>. Please book at least one day in advance.</p>
+                
+                <form method="POST">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="MP9xMTBmkUasQOIQagWBkddnsGKLhXooQuTm0O6BUZ5ReM6tsq4CpoUkYEfSdo5K">
+                    <p>
+                        <label for="id_date">Date:</label>
+                        <input type="date" name="date" required id="id_date">
+                    </p>
+
+    
+                    <p>
+                    <label for="id_time">Time:</label>
+                    <select name="time" required id="id_time">
+                    <option value="" selected>---------</option>
+                
+                    <option value="12:00:00">12:00</option>
+                
+                    <option value="12:15:00">12:15</option>
+                
+                    <option value="12:30:00">12:30</option>
+                
+                    <option value="12:45:00">12:45</option>
+                
+                    <option value="13:00:00">13:00</option>
+                
+                    <option value="13:15:00">13:15</option>
+                
+                    <option value="13:30:00">13:30</option>
+                
+                    <option value="13:45:00">13:45</option>
+                
+                    <option value="14:00:00">14:00</option>
+                
+                    <option value="14:15:00">14:15</option>
+                
+                    <option value="14:30:00">14:30</option>
+                
+                    <option value="14:45:00">14:45</option>
+                
+                    <option value="15:00:00">15:00</option>
+                
+                    <option value="15:15:00">15:15</option>
+                
+                    <option value="15:30:00">15:30</option>
+                
+                    <option value="15:45:00">15:45</option>
+                
+                    <option value="16:00:00">16:00</option>
+                
+                    <option value="16:15:00">16:15</option>
+                
+                    <option value="16:30:00">16:30</option>
+                
+                    <option value="16:45:00">16:45</option>
+                
+                    <option value="17:00:00">17:00</option>
+                
+                    <option value="17:15:00">17:15</option>
+                
+                    <option value="17:30:00">17:30</option>
+                
+                    <option value="17:45:00">17:45</option>
+                
+                    <option value="18:00:00">18:00</option>
+                
+                    <option value="18:15:00">18:15</option>
+                
+                    <option value="18:30:00">18:30</option>
+                
+                    <option value="18:45:00">18:45</option>
+                
+                    <option value="19:00:00">19:00</option>
+                
+                    <option value="19:15:00">19:15</option>
+                
+                    <option value="19:30:00">19:30</option>
+                
+                    <option value="19:45:00">19:45</option>
+                
+                    <option value="20:00:00">20:00</option>
+                
+                    <option value="20:15:00">20:15</option>
+                
+                    <option value="20:30:00">20:30</option>
+                
+                    <option value="20:45:00">20:45</option>
+                
+                    <option value="21:00:00">21:00</option>
+                
+                    <option value="21:15:00">21:15</option>
+                
+                    <option value="21:30:00">21:30</option>
+                
+                    <option value="21:45:00">21:45</option>
+                
+                </select>
+                    
+                    
+                    </p>
+
+
+
+
+ <!-- Footer -->
+
+ <footer>
+    <div class="container-fluid">
+        <div class="row fixed-bottom">
+            <!-- Opening Hours -->
+            <div class="col-5 col-md-4 col-lg-4">
+              <h3 class="footer-hours">Opening Hours:</h3>
+              <p class="footer-hours">12:00 - 23:00</p>
+            </div>
+            <!-- Icons -->
+            <div class="col-7 col-md-4 col-lg-4 d-flex justify-content-end justify-content-md-center align-items-center">
+                <div class="footer-icon d-flex justify-content-center align-items-center rounded-circle mx-1">
+                    <a href="bookings@thelemonOrchard.co.uk" target="_blank" aria-label="Contact us via email"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="footer-icon d-flex justify-content-center align-items-center rounded-circle mx-1">
+                    <a href="https://instagram.com" target="_blank" aria-label="Follow us on Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="footer-icon d-flex justify-content-center align-items-center rounded-circle ms-1 me-3 me-md-1">
+                    <a href="https://facebook.com" target="_blank" aria-label="Follow us on Facebook"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <!-- location -->
+            <div class="d-none d-md-flex col-md-4 col-lg-4 d-flex justify-content-end align-items-end">
+                <h2><b>Find Us :  Corso Italia ,   Sorrento ,   Italy</b></h2>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script
+src="https://kit.fontawesome.com/20bebd6373.js" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>
