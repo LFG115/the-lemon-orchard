@@ -45,14 +45,55 @@
                    <li class="nav-item mr-2"><a class="nav-link" href="/about.html">About</a></li>
  
                    <!-- Different 'Bookings' links for toggled/untoggled menu -->
-                   <li class="nav-item d-md-none bg-light-subtle rounded"><a class="nav-link" href="/reservation.html">Reservations</a></li>
-                   <li class="nav-item d-none d-md-inline"><a class="btn btn-light" href="/reservation.html">Reservations</a></li>
+                   <li class="nav-item d-md-none bg-light-subtle rounded"><a class="nav-link" href="/booking.html">Reservations</a></li>
+                   <li class="nav-item d-none d-md-inline"><a class="btn btn-light" href="/booking.html">Reservations</a></li>
                </ul>
            </div>
        </div>
    </nav>
 
+   <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-9 col-md-7 col-lg-5 col-xl-4 access-form text-center shadow">
+        <!-- Sign-up title -->
+        <h2 class="pt-2">Sign Up</h2>
+        <!-- Subtitle with link for existing account -->
+        <p class="access-form-smalltxt">Booked with us before?  If so, go to <a href="booking.html">Sign In</a>
+        </p>
+  
+        <!-- Sign-up form -->
+        <form class="signup" id="signup_form" method="post" action="/accounts/signup/">
+          <input type="hidden" name="csrfmiddlewaretoken" value="w98TSyOVL9V9578y5gqCVl7DxiLCHH0C6AEFn1VEOhVPRsFZjS1bsc0oo5leoMu1">
+          
+            <p>
+                <label for="id_email">Email (optional):</label>
+                <input type="email" name="email" placeholder="Email address" autocomplete="email" maxlength="345" id="id_email">      
+            </p>
+            
+            
+            <p>
+                <label for="id_username">Username:</label>
+                <input type="text" name="username" placeholder="Username" autocomplete="username" minlength="1" maxlength="150" required id="id_username">
+            </p>
+        
+            
+            <p>
+                <label for="id_password1">Password:</label>
+                <input type="password" name="password1" placeholder="Password" autocomplete="new-password" required id="id_password1">
+            </p>
+        
+            
+            <p>
+                <label for="id_password2">Password (again):</label>
+                <input type="password" name="password2" placeholder="Repeat Password" autocomplete="new-password" required id="id_password2">
+            </p>
+          
+            <button class="btn btn-light mb-3" type="submit">Sign Up</button>
 
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 
