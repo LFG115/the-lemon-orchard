@@ -292,7 +292,11 @@ footer p {
 
 #id_login,
 #id_password,
-#id_username {
+#id_username, 
+#id_email,
+#id_password1,
+#id_password2 {
+
     width: 50%;
     border: solid rgba(12, 72, 35, 0.759);
     border-radius: 3px;
