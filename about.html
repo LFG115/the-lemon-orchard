@@ -68,7 +68,21 @@
             </div>
         </div>
 
-        
+        <br><br>
+
+        <section class="container-fluid">
+            <div class="row map-section">
+                <div class="col-12 col-md-5 col-lg-6">
+                    <div id="map"></div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-6">
+                    <div id="map-info">
+                        <p>Parking is located across the road, in a multi-story carpark </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer -->
@@ -107,6 +121,20 @@
   <script
    src="https://kit.fontawesome.com/20bebd6373.js" crossorigin="anonymous">
   </script>
+  <script>
+    function initMap(){
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 3,
+            center: {
+                lat: 46.619261,
+                lng: -33.134766
+            }
+        });
+    }
+</script>
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxPcfCPq_9gmppltIpd7WQ0KJ50hZuAKw&callback=initMap"></script>
 
 </body>
 

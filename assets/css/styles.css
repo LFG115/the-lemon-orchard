@@ -30,7 +30,7 @@ body {
 
 .navbar {
     min-width: 100%;
-    background-color: #ffffff;
+    background-color: rgb(237, 236, 236);
     height: 100px;
     justify-content: space-between;
     bottom: 10px;
@@ -107,7 +107,7 @@ body {
 .res-btn:active,
 .res-btn:focus,
 .btn:active:focus {
-    color: white;
+    color: rgb(237, 236, 236);
     border: 2px solid black;
 }
 
@@ -122,7 +122,7 @@ body {
     padding: 1rem 5rem;
     border-radius: 10px;
     margin-top: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 236, 236);
 }
 
 .col-header h1 {
@@ -161,7 +161,7 @@ body {
 }
  
 .white {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 236, 236);
     margin-top: 30px;
     padding: 30px;
     border-radius: 20px;
@@ -172,7 +172,7 @@ body {
 
 footer div {
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.762);
+    background-color: rgb(237, 236, 236);
 }
 
 footer h2 {
@@ -221,7 +221,7 @@ footer p {
 }
 
 .menu-div {
-    background-color: rgba(245, 245, 235, 0.914);
+    background-color: rgb(237, 236, 236);
     padding: 2em 3em;
 }
 
@@ -251,19 +251,19 @@ footer p {
 }
 
 #writing {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 236, 236);
     padding: 13px;
 }
 
 #rest-img {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 236, 236);
     padding: 30px;
 }
 
 /*----------------------------------------------------------Access & Authorisation Forms */
 
 .access-form{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 236, 236);
     border: 0.5em solid rgba(12, 72, 35, 0.759);
     margin-top: 2.5em;
 }
@@ -274,7 +274,7 @@ footer p {
 }
 
 .access-form a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(237, 236, 236);
     background-color: rgba(12, 72, 35, 0.759);
     text-decoration: none;
     padding: 3px;
@@ -282,7 +282,7 @@ footer p {
 
 .access-form button,
 .access-form-input {
-    color: ghostwhite;
+    color: rgb(237, 236, 236);
     background-color: rgba(12, 72, 35, 0.759);
 }
 
@@ -295,7 +295,10 @@ footer p {
 #id_username, 
 #id_email,
 #id_password1,
-#id_password2 {
+#id_password2,
+#id_time,
+#id_date,
+#id_group{
 
     width: 50%;
     border: solid rgba(12, 72, 35, 0.759);
@@ -303,3 +306,38 @@ footer p {
     padding: 2px;
 }
 
+
+/*----------------------------------------------------------Booking Form */
+
+.booking-form,
+.bg-table {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.booking-form {
+    color: black;
+    border: 0.5em solid rgba(12, 72, 35, 0.759);
+    margin-top: 0.2rem;
+}
+
+.booking-form button {
+    color: ghostwhite;
+    background-color: rgba(12, 72, 35, 0.759);
+}
+
+/*---------------------------------------------------------- Map */
+.map-section {
+    background-color: rgb(237, 236, 236);
+    padding: 5px;
+}
+
+div#map-info {
+    border: rgb(12, 72, 35);
+    padding: 15px;
+}
+
+div#map {
+    min-height: 360px;
+    border: 0.5em solid rgb(12, 72, 35);
+}

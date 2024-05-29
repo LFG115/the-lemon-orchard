@@ -54,7 +54,7 @@
 
 
     <div class="container-fluid text-light text-end">
-        <p><span class="bg-dark px-2 px-md-3 pb-1"> Logged in as <em></em></span> </p>
+        <p><span class="bg-light text-dark px-2 px-md-3 pb-1"> Logged in as <em></em></span> </p>
     </div>
 
     <!-- New Booking -->
@@ -62,7 +62,9 @@
         <div class="row justify-content-center">
             <div class="col-10 col-sm-7 col-md-6 col-lg-4 col-xxl-3 booking-form text-center shadow">
                 <h2 class="pt-2">Make a Booking</h2>
-                <p class="pb-2">Booking as <em></em>. Please book at least one day in advance.</p>
+                <p class="pb-2">Booking under the name - <em></em>
+                <br>
+                Please book atleast 1 day in advance, Thankyou.</p>
                 
                 <form method="POST">
                     <input type="hidden" name="csrfmiddlewaretoken" value="MP9xMTBmkUasQOIQagWBkddnsGKLhXooQuTm0O6BUZ5ReM6tsq4CpoUkYEfSdo5K">
@@ -157,11 +159,50 @@
                 
                     <option value="21:45:00">21:45</option>
                 
-                </select>
+                    </select>
                     
                     
                     </p>
-
+                    <p>
+                      <label for="id_group">Group:</label>
+                      <select name="group" id="id_group">
+                      <option value="1">1</option>
+                    
+                      <option value="2" selected>2</option>
+                    
+                      <option value="3">3</option>
+                    
+                      <option value="4">4</option>
+                    
+                      <option value="5">5</option>
+                    
+                      <option value="6">6</option>
+                    
+                      <option value="7">7</option>
+                    
+                      <option value="8">8</option>
+                    
+                      <option value="9">9</option>
+                    
+                      <option value="10">10</option>
+                    
+                      <option value="11">11</option>
+                    
+                      <option value="12">12</option>
+                    
+                      </select>
+                        
+                        
+                        <input type="hidden" name="status" value="0" id="id_status">
+                        
+                    </p>
+                                        
+                    <button class="btn btn-dark text-light mb-3" type="submit">Submit</button>
+                                        
+                </form>
+            </div>
+        </div>
+    </div> 
 
 
 
