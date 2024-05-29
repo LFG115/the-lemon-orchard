@@ -332,6 +332,11 @@ footer p {
     padding: 5px;
 }
 
+div#map-info p {
+    text-align: center;
+    margin-top: 35px;
+}
+
 div#map-info {
     border: rgb(12, 72, 35);
     padding: 15px;
