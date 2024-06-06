@@ -252,7 +252,8 @@ footer p {
 
 #writing {
     background-color: rgb(237, 236, 236);
-    padding: 13px;
+    padding: 12px;
+    font-size: 15px;
 }
 
 #rest-img {
@@ -345,4 +346,19 @@ div#map-info {
 div#map {
     min-height: 360px;
     border: 0.5em solid rgb(12, 72, 35);
+}
+
+
+
+
+
+
+/*---------------------------------------------------------- Media Q */
+
+@media only screen and (max-width: 510px) {
+
+    #writing {
+        font-size: 12px;
+    }
+
 }
