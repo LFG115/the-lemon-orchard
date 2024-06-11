@@ -62,19 +62,24 @@ body {
 
 .navbar-nav .btn {
     background-color: rgba(12, 72, 35, 0.711);
-    
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(12, 72, 35, 0.711);
 }
 
 #navbarNav {
     font-size: 21px;
     letter-spacing: 2px;
     font-weight: 300;
+    background-color: rgb(237, 236, 236);
 }
 
 #navbarNav li a {
     margin: 8px;
     color: black;
 }
+    
 
 .navbar-toggler {
     margin-top: -0.5em;
@@ -108,7 +113,7 @@ body {
 .res-btn:focus,
 .btn:active:focus {
     color: rgb(237, 236, 236);
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .col-header {
