@@ -29,7 +29,7 @@ body {
 /*---------------------------------------------------------- Nav */
 
 .navbar {
-    min-width: 100%;
+    max-width: 100%;
     background-color: rgb(237, 236, 236);
     height: 100px;
     justify-content: space-between;
@@ -50,10 +50,8 @@ body {
     margin-top: -0.5em;
     margin-right: 0.5em;
     border: 2px solid;
-}
-
-.navbar-toggler  {
     color: black;
+    background-color: rgba(12, 72, 35, 0.711);
 }
 
 .nav-items {
@@ -64,22 +62,18 @@ body {
     background-color: rgba(12, 72, 35, 0.711);
 }
 
-.navbar-toggler-icon {
-    background-color: rgba(12, 72, 35, 0.711);
-}
-
 #navbarNav {
     font-size: 21px;
     letter-spacing: 2px;
     font-weight: 300;
     background-color: rgb(237, 236, 236);
+    width: 40%;
 }
 
 #navbarNav li a {
     margin: 8px;
     color: black;
 }
-    
 
 .navbar-toggler {
     margin-top: -0.5em;
@@ -354,10 +348,6 @@ div#map {
 }
 
 
-
-
-
-
 /*---------------------------------------------------------- Media Q */
 
 @media only screen and (max-width: 510px) {
@@ -366,4 +356,15 @@ div#map {
         font-size: 12px;
     }
 
+    .hero-section {
+        height: 70vh;
+    }
+
+    .col-header h1 {
+        font-size: 25px;
+    }
+
+    .col-header h2 {
+        font-size: 18px;
+    }
 }
